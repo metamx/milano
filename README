@@ -1,0 +1,13 @@
+Milano is a Pig -> Hadoop -> ProtoBuf stack with goals to improve end users ability to write backwards compatible code and to use a binary format allowing a decrease in processing time.
+
+Current Issues:
+Maven doesn't run the tests.
+The test files for the StoreFunc and LoadFunc tests no longer exist. They had propritary data in them which made them unsuitable for open sourcing.
+The stack isn't 100% complete; there are missing pieces in the hadoop/pig layer, but core is solid.
+There are bound to be tons of issues this code hasn't really been load tested nor profiled, buyer beware.
+
+Future improvements:
+Fix the issues above. :-P
+Create a more hadoop friendly file format.
+Support supplied descriptors instead of relying on the dynamic headers.
+

@@ -1,0 +1,9 @@
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
+src/main/java/com/metamx/milano/proto/MilanoTypeMetadata.java
+src/test/java/com/metamx/milano/proto/Testing.java
+bin/
+test-temporary-files/
